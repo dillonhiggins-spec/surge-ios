@@ -1,0 +1,42 @@
+{
+  "appId": "dev.surgemedia.command",
+  "appName": "Surge",
+  "webDir": "www",
+  "bundledWebRuntime": false,
+  "server": {
+    "url": "https://surge-cloud.taila10bd6.ts.net/",
+    "allowNavigation": [
+      "surge-cloud.taila10bd6.ts.net",
+      "portal.surgemedia.dev",
+      "surgemedia.dev",
+      "*.surgemedia.dev"
+    ],
+    "cleartext": false
+  },
+  "ios": {
+    "contentInset": "never",
+    "scrollEnabled": true,
+    "backgroundColor": "#f2f2f7",
+    "preferredContentMode": "mobile",
+    "limitsNavigationsToAppBoundDomains": false,
+    "scheme": "Surge"
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 400,
+      "launchAutoHide": true,
+      "backgroundColor": "#0b1220",
+      "showSpinner": false
+    },
+    "Keyboard": {
+      "resize": "none",
+      "style": "LIGHT",
+      "resizeOnFullScreen": false
+    },
+    "StatusBar": {
+      "style": "LIGHT",
+      "backgroundColor": "#f9f9f9",
+      "overlaysWebView": false
+    }
+  }
+}
